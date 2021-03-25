@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<ruleset name="minesweeper2">
+    <description>tictactoe</description>
+    <file>src</file>
+    <exclude-pattern>src/Kernel.php</exclude-pattern>
+    <exclude-pattern>tests/bootstrap.php</exclude-pattern>
+    <!-- Start here -->
+    <arg name="basepath" value="."/>
+    <!-- Only .php -->
+    <arg name="extensions" value="php"/>
+    <!-- 80 parallel -->
+    <arg name="parallel" value="80"/>
+    <!-- User cache dir -->
+    <arg name="cache" value=".phpcs-cache"/>
+    <!-- Show colors -->
+    <arg name="colors"/>
+    <!-- Show progress -->
+    <arg value="p"/>
+    <!-- Show sniff names -->
+    <arg value="s"/>
+</ruleset>
