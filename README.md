@@ -1,3 +1,3 @@
-# coding-dojo-tictactoe
+# coding-dojo-tictactoe (clean code exercise)
 
 My cleanest attempt of solving: https://ccd-school.de/coding-dojo/application-katas/tic-tac-toe/
